@@ -48,3 +48,5 @@ class Base(DeclarativeBase):
         # pk：Primary Key，主键约束
         "pk": "pk_%(table_name)s"
     })
+
+from . import user
