@@ -9,7 +9,7 @@ password_hash = PasswordHash.recommended()
 class User(Base):
     # 数据库中的表名
     __tablename__ = "user"
-    # id: 主键，自增。Mapped[int] 告诉 Python 这是一个整数
+    # id: 主键，自增。Mapped[int] 告诉 Python 这是一个整数。  Mapped mapped_column() 相当于实体类中的注解
     id : Mapped[ int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     email : Mapped[ str] = mapped_column(String(100), unique=True)
     username : Mapped[ str] = mapped_column(String(100))
