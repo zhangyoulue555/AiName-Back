@@ -2,7 +2,7 @@ DB_URI = "mysql+aiomysql://root:1234@127.0.0.1:3306/ainame?charset=utf8mb4"
 
 
 "qdoykpgfkgnedjee"
-# 邮箱相关配置
+# 邮箱相关配置--yaml
 MAIL_USERNAME="2440784496@qq.com"
 MAIL_PASSWORD="qdoykpgfkgnedjee"
 MAIL_FROM="2440784496@qq.com"
