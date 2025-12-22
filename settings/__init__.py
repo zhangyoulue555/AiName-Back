@@ -8,6 +8,6 @@ MAIL_PASSWORD="qdoykpgfkgnedjee"
 MAIL_FROM="2440784496@qq.com"
 MAIL_PORT=587
 MAIL_SERVER="smtp.qq.com"
-MAIL_FROM_NAME="知了课堂"
+MAIL_FROM_NAME="AiName起名助手"
 MAIL_STARTTLS=True
 MAIL_SSL_TLS=False
